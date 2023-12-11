@@ -74,7 +74,7 @@ jobs:
                 name: docs
 
             - name: Unzip artifact
-                run:|
+              run: |
                     unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
 
             - name: Setup Pages
