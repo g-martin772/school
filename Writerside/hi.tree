@@ -6,6 +6,9 @@
                  name="School"
                  start-page="ITPA-Laufzettelverfahren.md">
 
+    <toc-element topic="NWTK.md">
+        <toc-element topic="1-Test.md"/>
+    </toc-element>
     <toc-element topic="Deutsch.md">
         <toc-element topic="Empty-MD-Topic.md"/>
     </toc-element>
